@@ -1,0 +1,152 @@
+
+<!doctype html>
+<html>
+<head>
+    <title>Paige's BBC</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    
+</head>
+<body>
+
+<div id="container">
+    
+    <div id="topbar">
+        
+        <div class="fixedwidth">
+        
+            <div class="logodiv">
+            
+                <img src="images/bbclogo.png"/>
+                
+            </div>
+            
+            <div id="signlogo">
+                
+                <img src="images/signlogo.png"/> Sign In
+                
+            </div>
+            
+            <div id="topmenudiv">
+                
+                <ul>
+                    
+                    <li>News</li>
+                    <li>Sports</li>
+                    <li>Weather</li>
+                    <li>iPlayer</li>
+                    <li>TV</li>
+                    <li>Radio</li>
+                    <li>More...</li>
+                    
+                </ul>
+                
+                
+            </div>
+            
+            <div id="searchdiv">
+                
+                <input type="text" placeholder="Search..."/>
+                
+            </div>
+            
+         </div>
+        
+    </div>
+    
+    <div class="break"> </div>
+    
+    <div id="newsbar">
+        
+        <div class="fixedwidth">
+        
+            <p id="newsheader">NEWS<span id="uk">UK</span></p>
+            
+            <div id="rss">
+            
+            <p>RSS <img src="images/rss.png"/></p>
+                
+            </div>
+            
+            <div class="break"></div>
+            
+            <div id="topicmenu">
+            
+                <ul>
+                    
+                    <li>Home</li>
+                    <li>World</li>
+                    <Li class="selected">UK</Li>
+                    <li>England</li>
+                    <li>N.Ireland</li>
+                    <li>Scotland</li>
+                    <li>Wales</li>
+                    <li>Business</li>
+                    <li>Politics</li>
+                    <li>Health</li>
+                    <li>Education</li>
+                    <li>Science</li>
+                    <li style="border-right:none">Arts</li>
+                    
+                </ul>
+            </div>
+        
+        </div>
+       
+    </div>
+    
+    <div class="break"> </div>
+    
+    <div id="content">
+        
+        <div class="fixedwidth">
+        
+            <p id="date"><strong>September 10th 2014 </strong>Last updated at 15:23</p>
+            
+            <h1>Pollution to spread across England</h1>
+            
+            <p id="headlineimage">
+            
+               <img src="images/headlineimage.png"/>
+                
+            </p>
+            
+            <div class="newsitem">
+                
+                <p>Health warnings have been issued by the government as pollution spreading across England is to hit record highs.</p>
+                
+                <p><a class="video" href="">Why are pollution levels so high?</a></p>
+                
+                <p><a class="video" href="">Sahara dust visible on cars.</a></p>
+                 
+                <p><a class="video" href="">How did Sahara dust reach the UK?</a></p>
+                  
+                <p><a class="video" href="">Air pollution a 'serious issue'</a></p>
+                
+            </div>
+            
+            <div id="watchlisten">
+                
+                <img src="images/listen.png" class="listen"/>
+                
+                <h2>Watch/Listen</h2>
+                
+                <img src="images/rightvideo.png" class="rightvideo"/>
+                
+                <img src="images/last.png" class="last"/>
+                
+            </div>
+            
+        </div>
+       
+    </div>
+    
+    
+</div>
+
+</body>
+</html>
